@@ -1,0 +1,189 @@
+*   {
+    margin: 0%;
+    padding: 0%;
+    /* outline: 1px red solid; */
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titlebar {
+    width: 96%;
+    background-color: black;
+    color:white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75% 2%;
+}
+
+.menu   {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-content   {
+    display: flex;
+    justify-content: center;
+}
+
+
+.leftcol    {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+}
+
+.namecard, .educard {
+    margin: 1%;
+}
+
+.namecard   {
+    background: rgb(23,162,184);
+    background: linear-gradient(180deg, rgba(23,162,184,1) 0%, rgba(255,255,255,1) 35%, rgb(255, 255, 255) 100%);
+    border: solid gray 2px;
+    padding: 4%;
+    margin-top: 13% ;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+}
+
+.editprof   {
+    display: flex;
+    align-items: center;
+}
+
+.description > p    {
+    margin: 1%;
+}
+
+.namecard > p{
+    margin-left: 1%;
+}
+
+.namecard > img {
+    width: 70px;
+}
+
+.location   {
+    display: flex;
+}
+
+.location > img, .location > p    {
+    margin: 1%;
+}
+
+.editprof > img, .editprof > p  {
+    margin: 1%;
+}
+
+.location > img {
+    width: 12px;
+}
+
+.editprof > img {
+    width: 16px;
+}
+
+.educard    {
+    border: solid gray 2px;
+
+}
+
+.educard > p   {
+    margin: 1%;
+}
+
+.educard  > h4 {
+    background-color: rgb(0, 0 ,0);
+    color:white;
+    height: 20%;
+}
+
+.rightcol   {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+.connreq, .yourconn {
+    margin: 3%;
+}
+
+.connreq    {
+    width: 100%;
+    border: solid 2px black;
+}
+
+.connbar    {
+    display: flex;
+    background-color: #333333;
+    color: #ffffff;
+    justify-content: center;
+}
+
+p.connbar, p.friendbar  {
+    background-color: #ffffff;
+}
+
+.request    {
+    display: flex;
+    padding: 3%;
+}
+
+.request-name  {
+    display: flex;
+    flex: 7;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.accdeny     {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 3;
+}
+
+
+.request-name > img  {
+    width: 37.75%;
+    border-radius: 50%;
+}
+
+.accdeny > img  {
+    width: 40%;
+    margin: 5%;
+}
+
+.yourconn   {
+    width: 100%;
+    border: solid 2px black;
+}
+
+.friendbar  {
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.friends    {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 3%;
+}
+
+.friends > img{
+    border-radius: 50%;
+    width: 26.4%;
+}
